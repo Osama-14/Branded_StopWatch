@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Stop Watch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <div class="heading" data-aos="zoom-in">
+        <h2>StopWatch</h2>
+        <img src="./hand.png"  data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+       </div>
+
+        <div class="header" data-aos="flip-down" >
+            <span id="hour">00</span>:
+            <span id="min">00</span>:
+            <span id="sec">00</span>:
+            <span id="msec">00</span>
+
+
+        </div>
+
+        <div class="footer" data-aos="flip-left">
+            <button onclick="start()" class="btn1">start</button>
+            <button onclick="pause()" class="btn2">pause</button>
+            <button onclick="reset()" class="btn3">reset</button>
+        </div>
+
+        <div class="para1" data-aos="fade-right">
+            <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatem ipsa consectetur voluptates perferendis quod! Doloribus distinctio laborum ipsa earum, voluptatum unde illo perferendis minus mollitia asperiores sunt vitae. Maxime.</p>
+        </div>
+
+        <div class="para2" data-aos="fade-up" data-aos-duration="2000">
+            <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatem ipsa consectetur voluptates perferendis quod! Doloribus distinctio laborum ipsa earum, voluptatum unde illo perferendis minus mollitia asperiores sunt vitae. Maxime.</p>
+        </div>
+        <div class="para3" data-aos="fade-up-left"data-aos-duration="2000" >
+            <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatem ipsa consectetur voluptates perferendis quod! Doloribus distinctio laborum ipsa earum, voluptatum unde illo perferendis minus mollitia asperiores sunt vitae. Maxime.</p>
+        </div>
+        <div class="para4" data-aos="fade-right">
+            <p class="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatem ipsa consectetur voluptates perferendis quod! Doloribus distinctio laborum ipsa earum, voluptatum unde illo perferendis minus mollitia asperiores sunt vitae. Maxime.</p>
+        </div>
+        <div class="para5" data-aos="flip-left">
+            <p class="p5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatem ipsa consectetur voluptates perferendis quod! Doloribus distinctio laborum ipsa earum, voluptatum unde illo perferendis minus mollitia asperiores sunt vitae. Maxime.</p>
+        </div>
+
+
+
+
+
+
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        // duration='4000'
+        duration: 1000,
+        offset: 300,
+        delay: 100
+      });
+    </script>
+    
+</body>
+</html>
